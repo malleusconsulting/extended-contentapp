@@ -36,4 +36,4 @@ The presenter used to represent the tree view within the browser app is replaced
 
 The code is very simple and works with provided Magnolia code as much as possible. ExtendedWorkbenchDefinition provides the additional property, dropConstraintParameters, that will be populated via Node2Bean.
 
-When the app UI is rendered, the extended presenter, TreePresenterWithConfiguredDropConstraint, overrides the start() method of the default, TreePresenter, to replace the MoveHandler registered in the tree's view. This is simply another of the same class as originally set but after using the Apache Common BeanUtils to set, via reflection, all properties referred to as keys of the parameter map.
+When the app UI is rendered, the extended presenter, TreePresenterWithConfiguredDropConstraint, overrides the start() method of the default, TreePresenter, to replace the MoveHandler registered in the tree's view. This is simply another of the same class as originally set but after using the Apache Commons' BeanUtils to set, via reflection, all properties referred to as keys of the parameter map.
