@@ -86,6 +86,11 @@
           <target>${javaVersion}</target>
         </configuration>
       </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-release-plugin</artifactId>
+        <version>2.5.2</version>
+      </plugin>
     </plugins>
 
     <!-- default resources configuration which will filter the module descriptor -->
